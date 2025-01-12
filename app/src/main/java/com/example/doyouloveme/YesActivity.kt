@@ -23,6 +23,7 @@ class YesActivity : AppCompatActivity() {
         binding.backIcon.setOnClickListener {
             val intent = Intent(this, HomePageActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
