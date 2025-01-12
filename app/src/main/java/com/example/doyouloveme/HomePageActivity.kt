@@ -3,7 +3,6 @@ package com.example.doyouloveme
 import android.content.Intent
 import android.graphics.Rect
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
@@ -24,7 +23,6 @@ class HomePageActivity : AppCompatActivity() {
             .load(R.drawable.homepage_cat)
             .into(binding.gifHomepage)
 
-        // Set up click listener for the "No" button
         binding.noButton.setOnClickListener {
             moveButtonRandomly(binding.noButton)
         }
@@ -46,18 +44,13 @@ class HomePageActivity : AppCompatActivity() {
         val maxX = screenBounds.width() - buttonWidth
         val maxY = screenBounds.height() - buttonHeight
 
-        // Generate random positions
         val randomX = Random.nextInt(0, maxX)
         val randomY = Random.nextInt(0, maxY)
 
-        // Debug log
-        Log.d("RandomMove", "Moving to X: $randomX, Y: $randomY")
-
-        // Move the button
         button.animate()
             .x(randomX.toFloat())
             .y(randomY.toFloat())
-            .setDuration(300) // Animation duration
+            .setDuration(300)
             .start()
     }
 }
