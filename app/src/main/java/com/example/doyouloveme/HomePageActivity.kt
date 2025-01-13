@@ -30,6 +30,7 @@ class HomePageActivity : AppCompatActivity() {
         binding.yesButton.setOnClickListener {
             val intent = Intent(this, YesActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 
