@@ -29,11 +29,9 @@ A fun and interactive Android game where the user is asked the ultimate question
 - **Gif Support (Glide)
 
 ## 📸 Screenshots
-```md
 ![Start Screen](screenshots/start_screen.png)
 ![Home Page](screenshots/home_page.png)
 ![Yes Screen](screenshots/yes_screen.png)
-```
 
 ## 🚀 How to Run
 1. Clone this repository:
