@@ -1,6 +1,11 @@
-# Do You Love Me? ❤️
+# Do You Love Me? 
 
 A fun and interactive Android game where the user is asked the ultimate question: **"Do you love me?"** The game adds a playful challenge when selecting "No" while rewarding the user when they finally choose "Yes."
+
+## Features
+- Simple and engaging UI with images and animations.
+- Interactive buttons with playful behavior.
+- Navigation between three screens with smooth user interaction.
 
 ## 📱 Screens & Gameplay
 
@@ -19,11 +24,11 @@ A fun and interactive Android game where the user is asked the ultimate question
 - Shows the text **"I love you too!"**
 
 ## 🛠 Tech Stack
-- **Language**: Java/Kotlin
-- **UI Components**: ImageView, TextView, Buttons, GIFView
-- **Navigation**: Intent-based screen transitions
+- **Language**: Kotlin
+- **Android SDK
+- **Gif Support (Glide)
 
-## 📸 Screenshots *(Optional: Add images if available)*
+## 📸 Screenshots
 You can add screenshots by uploading them to your repository and using the following Markdown syntax:
 ```md
 ![Start Screen](path_to_image/start_screen.png)
@@ -39,9 +44,4 @@ You can add screenshots by uploading them to your repository and using the follo
 2. Open the project in **Android Studio**.
 3. Build and run the app on an emulator or a real device.
 
-## 📜 License
-This project is open-source and free to use. Feel free to modify and improve it!
-
----
-Have fun playing **Do You Love Me?** ❤️
 
