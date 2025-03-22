@@ -31,8 +31,8 @@ A fun and interactive Android game where the user is asked the ultimate question
 ## 📸 Screenshots
 ```md
 ![Start Screen](screenshots/start_screen.png)
-![Home Page](path_to_image/home_page.png)
-![Yes Screen](path_to_image/yes_screen.png)
+![Home Page](screenshots/home_page.png)
+![Yes Screen](screenshots/yes_screen.png)
 ```
 
 ## 🚀 How to Run
