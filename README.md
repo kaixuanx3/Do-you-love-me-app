@@ -29,7 +29,8 @@ A fun and interactive Android game where the user is asked the ultimate question
 - **Gif Support (Glide)
 
 ## 📸 Screenshots
-You can add screenshots by uploading them to your repository and using the following Markdown syntax:
+You can add screenshots by uploading them to![start_screen](https://github.com/user-attachments/assets/0f004772-803e-4bf9-b81a-641c9ccb4869)
+ your repository and using the following Markdown syntax:
 ```md
 ![Start Screen](path_to_image/start_screen.png)
 ![Home Page](path_to_image/home_page.png)
